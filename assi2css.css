@@ -1,0 +1,99 @@
+
+  body {
+    
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;  
+}
+
+@font-face{
+    font-family:Guardians;
+    src: url(Guardians.ttf);
+}
+
+@font-face {
+    font-family: 'AVENGER';
+    src: url('AVENGER.ttf') format('truetype');
+}
+
+.poster {
+    background-color: #171111;
+    border: 1px solid #aa7272;
+    border-radius: 5px;
+    box-shadow: #ffff;
+    margin: 20px auto;
+    max-width: 800px;
+    position: relative;
+}
+
+.poster .overlay {
+    position: relative;
+    font-size: larger;
+}
+
+.poster img {
+    max-width: 100%;
+    height: -50%;
+    width: 100%;
+    border: 0;
+    padding-left:0px ;
+    padding-right: 0px;
+    margin:0px;
+    background-color: black;
+}
+
+
+
+
+
+.text {
+    src: url(Guardians.ttf);
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: capitalize;
+    color:rgb(255, 200, 0);
+    line-height:50px ;
+    font-weight: bolder;
+
+}
+
+h1 {
+    font-size: 28px;
+    margin: 0;
+    font-family: 'AVENGER';
+}
+
+h2 {
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.center {
+    
+    top: 50%;
+    left: 50%;
+    text-align:top left;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ff0000;
+    color: rgb(217, 255, 0);
+    padding:0;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: #00cc58;
+}
