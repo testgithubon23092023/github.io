@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Employee Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="logo"><img src="https://uploads-ssl.webflow.com/625528df065c53d23c2bc83b/62723c70e9a2dc7f9ac54b82_How-To-Design-A-Logo-With-A-Tagline-Or-Slogan.png" alt=""></div>
+    <nav>
+        <ul>
+            <li><a href="index.php">View Employees</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1>Add Employee Information</h1>
+    <form action="index.php" method="POST">
+        <label for="employee_name">Employee Name:</label><br>
+        <input type="text" id="employee_name" name="employee_name"><br>
+
+        <label for="hours_worked">Hours Worked:</label><br>
+        <input type="number" id="hours_worked" name="hours_worked" ><br>
+
+        <label for="employee_id">Employee ID:</label><br>
+        <input type="text" id="employee_id" name="employee_id"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</main>
+<footer>
+    &copy; 2024 CORPRATE TAGLINE
+</footer>
+</body>
+</html>
